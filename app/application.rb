@@ -3,7 +3,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-       num_1 = Kernel.datetime_select
+     time = Time.now
  
     resp.finish
   end
